@@ -14,14 +14,47 @@
     + Alt + Enter 不止会运行你的单元块，还会在下面添加一个新单元。
     + Ctrl + Shift + F 打开命令面板。
 ## 1.python解释器
+用于执行包含Python代码的以.py为扩展名的文本文件
+
+[更多python解释器类型详情](https://www.liaoxuefeng.com/wiki/897692888725344/966138843228672)
 ## 2.Ipython基础
+【一种python解释器】
 ## 3.Tab补全
 * 变量补全
+
+```
+name_age
+na"tab"
+->name_age
+```
 * 函数/方法补全
+
 * 路径补全
+```
+path=“user/……/……/”
+```
 * 关键字参数补全
+
 ## 4.内省
+* 在变量名或命令的前面或后面加一个 “？” 并执行，可以用于显示该对象的一些通用信息，如对象类型、文档字符串等，这就叫做对象内省。
+```
+list_a=[1,2,3]
+?list_a
+import time
+?time
+```
+* 使用双问号“??”还可以查看对象的源代码。
+```
+add_numbers??
+```
 ## 5.%run
+* 可在jupuyter 中执行.py文件
+```
+%run ipython_test.py
+```
+## 魔术命令
+
+[Jupyter常用命令](https://www.cnblogs.com/bind/p/11958317.html)
 ## *python相关回顾*
 > python是一门动态解释性的强类型定义语言
 ### 一切皆是对象
