@@ -29,7 +29,6 @@
     df.assign(
     原列名称2_list = lambda x : x["原列名称2"].str.split('[、,,]'),
     原列名称3_list = lambda x : x["原列名称3"].str.split('[、,,]')
-)
     ```
     *df.assign方法可以同时添加多个新的列*
 ---
